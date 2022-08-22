@@ -29,7 +29,7 @@ Payment Fee Plugin
 
 ## Installation
 
-1. Run `$ composer require mangoweb-sylius/sylius-payment-fee-plugin`.
+1. Run `$ composer require aureliusm/sylius-payment-fee-plugin`.
 2. Register `\MangoSylius\PaymentFeePlugin\MangoSyliusPaymentFeePlugin` in your Kernel.
 3. Your Entity `PaymentMethod` has to implement `\MangoSylius\PaymentFeePlugin\Model\PaymentMethodWithFeeInterface`. You can use Trait `MangoSylius\PaymentFeePlugin\Model\PaymentMethodWithFeeTrait`. 
 
